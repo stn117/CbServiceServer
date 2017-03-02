@@ -1,5 +1,5 @@
 <web-app>
-    <display-name>Spring Web Application example</display-name>
+    <display-name>хуяк</display-name>
 
    <context-param>
         <param-name>contextConfigLocation</param-name>

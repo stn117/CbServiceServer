@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Gradle : BestExchangeProject : cbws.war (exploded)">
-    <output-path>$PROJECT_DIR$/out/artifacts/Server/exploded/cbws.war</output-path>
+    <output-path>$PROJECT_DIR$/build/libs/exploded/cbws.war</output-path>
     <properties id="gradle-properties">
-      <options external-project-path="$PROJECT_DIR$" />
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
     </properties>
     <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/cbws.war/META-INF/MANIFEST.MF" />
+      </element>
       <element id="javaee-facet-resources" facet="Server_main/web/Web Gradle : cbws.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -23,6 +28,7 @@
           <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.7" />
           <element id="library" level="project" name="Gradle: org.jsoup:jsoup:1.7.2" />
           <element id="library" level="project" name="Gradle: postgresql:postgresql:9.1-901-1.jdbc4" />
+          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.7" />
           <element id="library" level="project" name="Gradle: org.springframework.ws:spring-xml:2.3.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.3.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.3.RELEASE" />
@@ -52,11 +58,7 @@
           <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.21" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.7" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Server/exploded/cbws.war/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>
